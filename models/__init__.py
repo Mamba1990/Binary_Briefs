@@ -6,7 +6,7 @@ initialize the models package
 from os import getenv
 
 
-storage_t = getenv("BB_TYPE_STORAGE")
+storage_t = getenv("BIBR_TYPE_STORAGE")
 
 if storage_t == "db":
     from models.engine.dbStorage import DBStorage

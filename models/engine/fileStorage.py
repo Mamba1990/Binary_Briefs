@@ -6,10 +6,10 @@ Contains the FileStorage class
 import json
 import models
 from models.Category import Category
-from models.baseModel import BaseModel
+from models.BaseModel import BaseModel
 from models.Article import Article
 from models.Comment import Comment
-from models.user import User
+from models.User import User
 from hashlib import md5
 
 classes = {"Category": Category, "BaseModel": BaseModel, "Article": Article,

@@ -7,7 +7,7 @@ import sqlalchemy
 from sqlalchemy import Column, String, ForeignKey
 
 
-class Review(BaseModel, Base):
+class Comment(BaseModel, Base):
     """Representation of Comment """
     if models.storage_t == 'db':
         __tablename__ = 'comments'
