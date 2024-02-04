@@ -1,0 +1,91 @@
+filters{
+    background-color: rgb(250, 245, 245);
+    height: 70px;
+    width: 100%;
+    border: solid 1px #DDDDDD;
+    border-radius: 4px;
+    text-align: right;
+}
+
+section.filters button{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-right: 30px;
+    font-size: 18px;
+    background-color: linear-gradient(to left,rgb(177, 55, 112),rgb(84, 44, 176));;
+    color: rgb(185, 34, 34);
+    height: 48px;
+    width: 20%;
+    border: none;
+    background:rgb(244, 170, 170);
+    box-shadow: 0 4px 8px rgba(217, 215, 215, 0.3);
+    border-radius: 4px;
+}
+section.filters button:hover {
+    opacity: 1;
+}
+.locations{
+    text-align: left;
+    height: 100%;
+    width: 25%;
+    border-right: solid 1px #DDDDDD;
+    float: left;
+}
+.categories{
+    text-align: left;
+    align-content: flex-start;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+.categories h3, .locations h3{
+    font-weight: 600;
+    margin: 0px;
+    margin-top: 17px;
+    padding: 0px;
+    padding-left: 30px;
+}
+.categories h4, .locations h4{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 30px;
+}
+.popover{
+    visibility: hidden;
+    position: relative;
+    background-color: #FAFAFA;
+    border: solid #DDDDDD 1px;
+    border-radius: 4px;
+    margin-top: 7%;
+    padding-bottom: 10%;
+    z-index: 1;
+}
+.popover li h2{
+    padding: 0;
+    margin: 0;
+}
+.popover_list{
+    padding:0px;
+    margin:0px;
+    padding-left: 10%;
+}
+li{
+    list-style-type: none;
+    padding-bottom: 5%;
+}
+ul{
+    padding-top: 30px;
+}
+
+
+
+.categories:hover > .popover{
+    visibility: visible;
+}
+
+
+ul {
+  list-style: none;
+}
