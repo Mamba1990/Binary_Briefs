@@ -1,0 +1,99 @@
+/*header {
+    
+    height: 60px; 
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    background: linear-gradient(to right,rgb(216, 172, 193),rgb(172, 169, 169)) ;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    flex-shrink: 0;
+}
+ .header Navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+  
+    align-items: right;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+}
+.Navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.Navbar ul li a{
+    text-decoration: none;
+    margin: 10px 10px;
+    color:rgb(73, 24, 113);
+    font-family: cursive;
+    text-align: right;
+    font-size : 16px
+
+
+
+}
+.Navbar ul li a:hover{
+    color: rgb(190, 65, 65);
+}
+header a {
+    text-decoration: none; 
+    color: #333;
+    font-size: 16px;
+    margin-right: 20px; 
+}
+*/
+
+
+.header {
+    height: 80px; 
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    background: linear-gradient(to right, rgb(196, 80, 136), rgb(170, 172, 169));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 20px; /* Adjust as needed */
+    margin: 4px;
+}
+
+.Navbar {
+    margin-left: auto;
+    margin-right: 0.5cm; /* Adjust the margin between the toolbar and the right edge */
+    display: flex;
+    align-items: center;
+}
+
+.Navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.Navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.Navbar ul li a {
+    text-decoration: none;
+    color: rgb(211, 210, 211);
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.Navbar ul li a:hover {
+    color: rgb(143, 131, 173);
+}

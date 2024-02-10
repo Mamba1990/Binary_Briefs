@@ -13,12 +13,14 @@ article {
     width: 390px;
     padding: 20px 20px 20px 20px;
     margin: 20px 20px 20px 20px;
-    border: 1px solid #280842;
+    border: 1px solid #7c787f;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
     position: relative;
     z-index: -1;
+    background-image:url("https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
+
 .information {
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +37,8 @@ article h2 {
 }
 body {
     margin: 0;
-    background: linear-gradient(to left,rgb(177, 177, 236),rgb(222, 221, 221)) ;
+    background: linear-gradient(to left,rgb(56, 56, 57),rgb(222, 221, 221)) ;
+    
 }
 
 
