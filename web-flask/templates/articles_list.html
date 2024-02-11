@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <HEAD>
+        <TITLE>Binary Briefs</TITLE>
+    </HEAD>
+    <BODY>
+        <H1>Articles</H1>
+        <UL>
+            {% for article in articles %}
+            <LI>{{ article["id"] }}: <B>{{ article["title"] }}</B></LI>
+            {% endfor %}
+        </UL>
+    </BODY>
+</HTML>
