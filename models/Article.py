@@ -4,6 +4,7 @@ import models
 from models.BaseModel import BaseModel, Base
 from os import getenv
 import sqlalchemy
+from sqlalchemy import Text
 from sqlalchemy import Column, String, Integer, Float, ForeignKey, Table
 from sqlalchemy.orm import relationship
 
